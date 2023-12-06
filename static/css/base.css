@@ -1,0 +1,10 @@
+.sad-face  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sad-face img {
+    width: 30rem;
+}

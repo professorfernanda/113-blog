@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Forbidden (403){% endblock title %}
+{% load static %}
+
+{% block content %}
+<h1>Forbidden (403)</h1>
+
+<div class="sad-face">
+    <img src="{% static 'img/sad-face.jpg' %}" alt="">
+    <p>You are not authorized to view that page.</p>
+    <p><a href="{% url 'home' %}"> Click here</a> to go to the home page.</p>
+</div>
+
+
+
+{% endblock content %}
