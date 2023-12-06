@@ -3,10 +3,10 @@
 {% block title %}Log Out{% endblock title %}
 
 {% block content %}
+<h1>You are logged out!</h1>
+<p>You are logged out. To see your account please Log In. <br>
+Don't have an account? Sign up to create one.</p>
 
-
-<p>Logged out!</p>
-<a href="{% url 'login'%}">Click here to login again.</a>
-
-
+<a style="margin-right: 1rem;" href="{% url 'login' %}">Log In</a> 
+<a href="{% url 'signup' %}">Sign Up</a>
 {% endblock content %}
